@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "e9dd00cb-6a39-4b01-9b93-db28a3622e0f",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{apihost}}/send-email",
+    "url": "{{apihost}}/send-email",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-02-25T02:45:36.215Z",
+    "modified": "2023-02-25T02:45:36.215Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"jsonrpc\":\"2.0\",\n    \"method\": \"sendEmail\",\n    \"params\": {\n      \"department\": \"3\",\n      \"subject\": \"33\",\n      \"name\": \"{{userName}}\",\n      \"mobile_phone\": \"{{userLogin}}\",\n      \"email\": \"{{userEmail}}\",\n      \"question\": \"тестовый вопрос\"\n     },\n    \"id\": {{$randomInt}} \n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

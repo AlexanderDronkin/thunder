@@ -1,0 +1,496 @@
+[
+  {
+    "_id": "6a1e8734-30c4-48e6-9b51-7319b7432fa8",
+    "name": "localhost",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2023-02-22T03:42:49.013Z",
+    "modified": "2023-02-22T03:42:49.013Z",
+    "data": [
+      {
+        "name": "apihost",
+        "value": "http://localhost/api/v2"
+      },
+      {
+        "name": "domain",
+        "value": "http://localhost"
+      },
+      {
+        "name": "BQ_TOKEN",
+        "value": ""
+      },
+      {
+        "name": "BQ_APPID",
+        "value": "DRYG"
+      },
+      {
+        "name": "BQ_HOST",
+        "value": "https://podrygka.brandquad.ru/api/public_v2"
+      },
+      {
+        "name": "userToken",
+        "value": "+79653248514/dcd4c9f3ae7dc0818766daab2b4ea0ea"
+      },
+      {
+        "name": "anonToken",
+        "value": ""
+      },
+      {
+        "name": "webID",
+        "value": ""
+      },
+      {
+        "name": "userLogin",
+        "value": "+79511389680"
+      },
+      {
+        "name": "userSmsCode",
+        "value": ""
+      },
+      {
+        "name": "rr_baseurl",
+        "value": "https://apptracking.retailrocket.net/1.0"
+      },
+      {
+        "name": "rr_apikey",
+        "value": ""
+      },
+      {
+        "name": "rr_partnerID",
+        "value": ""
+      },
+      {
+        "name": "elastic_host",
+        "value": "http://10.80.2.39:9200"
+      },
+      {
+        "name": "elastic_index",
+        "value": "test"
+      },
+      {
+        "name": "Pickpoint_apihost",
+        "value": "https://e-solution.pickpoint.ru/api/"
+      },
+      {
+        "name": "Pickpoint_login",
+        "value": ""
+      },
+      {
+        "name": "Pickpoint_password",
+        "value": ""
+      },
+      {
+        "name": "Pickpoint_sessionId",
+        "value": ""
+      },
+      {
+        "name": "Pickpoint_ikn",
+        "value": ""
+      },
+      {
+        "name": "mock-x-api-key",
+        "value": ""
+      },
+      {
+        "name": "article",
+        "value": "101007"
+      },
+      {
+        "name": "rr_recommend_base_url",
+        "value": "https://externalapi.retailrocket.net/api/3.0"
+      },
+      {
+        "name": "rr_productIds",
+        "value": ""
+      },
+      {
+        "name": "userName",
+        "value": ""
+      },
+      {
+        "name": "userLastName",
+        "value": ""
+      },
+      {
+        "name": "userEmail",
+        "value": ""
+      },
+      {
+        "name": "searchPhrase",
+        "value": ""
+      },
+      {
+        "name": "imbi_host",
+        "value": ""
+      },
+      {
+        "name": "regionID",
+        "value": ""
+      },
+      {
+        "name": "letualOrderID",
+        "value": ""
+      },
+      {
+        "name": "orderNum",
+        "value": ""
+      },
+      {
+        "name": "paymentToken",
+        "value": ""
+      },
+      {
+        "name": "bitrix_city_id",
+        "value": "0000073738"
+      },
+      {
+        "name": "calculateTotal",
+        "value": ""
+      },
+      {
+        "name": "shop_id",
+        "value": ""
+      },
+      {
+        "name": "bitrix_delivery_id",
+        "value": "54"
+      },
+      {
+        "name": "cityName",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "_id": "79176dbf-5dc1-4aa6-b95a-7d9270a25458",
+    "name": "site-dev-ecom",
+    "default": false,
+    "sortNum": 30000,
+    "created": "2023-02-22T03:43:55.056Z",
+    "modified": "2023-02-22T03:43:55.056Z",
+    "data": [
+      {
+        "name": "apihost",
+        "value": "https://ecom.podrujkashop.ru/api/v2"
+      },
+      {
+        "name": "domain",
+        "value": "https://ecom.podrujkashop.ru"
+      },
+      {
+        "name": "BQ_TOKEN",
+        "value": ""
+      },
+      {
+        "name": "BQ_APPID",
+        "value": "DRYG"
+      },
+      {
+        "name": "BQ_HOST",
+        "value": "https://podrygka.brandquad.ru/api/public_v2"
+      },
+      {
+        "name": "userToken",
+        "value": "+79264970036/ad2f3fb5876dc15e2c89534f33bc0f7e"
+      },
+      {
+        "name": "anonToken",
+        "value": ""
+      },
+      {
+        "name": "webID",
+        "value": ""
+      },
+      {
+        "name": "userLogin",
+        "value": "+79511389680"
+      },
+      {
+        "name": "userSmsCode",
+        "value": ""
+      },
+      {
+        "name": "rr_baseurl",
+        "value": "https://apptracking.retailrocket.net/1.0"
+      },
+      {
+        "name": "rr_apikey",
+        "value": ""
+      },
+      {
+        "name": "rr_partnerID",
+        "value": ""
+      },
+      {
+        "name": "elastic_host",
+        "value": "http://10.80.2.39:9200"
+      },
+      {
+        "name": "elastic_index",
+        "value": "test"
+      },
+      {
+        "name": "Pickpoint_apihost",
+        "value": "https://e-solution.pickpoint.ru/api/"
+      },
+      {
+        "name": "Pickpoint_login",
+        "value": ""
+      },
+      {
+        "name": "Pickpoint_password",
+        "value": ""
+      },
+      {
+        "name": "Pickpoint_sessionId",
+        "value": ""
+      },
+      {
+        "name": "Pickpoint_ikn",
+        "value": ""
+      },
+      {
+        "name": "mock-x-api-key",
+        "value": ""
+      },
+      {
+        "name": "article",
+        "value": "101007"
+      },
+      {
+        "name": "rr_recommend_base_url",
+        "value": "https://externalapi.retailrocket.net/api/3.0"
+      },
+      {
+        "name": "rr_productIds",
+        "value": ""
+      },
+      {
+        "name": "userName",
+        "value": ""
+      },
+      {
+        "name": "userLastName",
+        "value": ""
+      },
+      {
+        "name": "userEmail",
+        "value": ""
+      },
+      {
+        "name": "searchPhrase",
+        "value": ""
+      },
+      {
+        "name": "imbi_host",
+        "value": ""
+      },
+      {
+        "name": "regionID",
+        "value": ""
+      },
+      {
+        "name": "letualOrderID",
+        "value": ""
+      },
+      {
+        "name": "orderNum",
+        "value": ""
+      },
+      {
+        "name": "paymentToken",
+        "value": ""
+      },
+      {
+        "name": "bitrix_city_id",
+        "value": "0000073738"
+      },
+      {
+        "name": "calculateTotal",
+        "value": ""
+      },
+      {
+        "name": "shop_id",
+        "value": ""
+      },
+      {
+        "name": "bitrix_delivery_id",
+        "value": "54"
+      },
+      {
+        "name": "cityName",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "_id": "15a31d38-f96f-44e6-9b52-64c644ec2f66",
+    "name": "site-dev2",
+    "default": false,
+    "sortNum": 20000,
+    "created": "2023-02-22T03:44:08.313Z",
+    "modified": "2023-02-22T03:44:08.313Z",
+    "data": [
+      {
+        "name": "apihost",
+        "value": "https://developer2.podrujkashop.ru/api/v2"
+      },
+      {
+        "name": "domain",
+        "value": "https://developer2.podrujkashop.ru"
+      },
+      {
+        "name": "BQ_TOKEN",
+        "value": ""
+      },
+      {
+        "name": "BQ_APPID",
+        "value": "DRYG"
+      },
+      {
+        "name": "BQ_HOST",
+        "value": "https://podrygka.brandquad.ru/api/public_v2"
+      },
+      {
+        "name": "userToken",
+        "value": ""
+      },
+      {
+        "name": "anonToken",
+        "value": ""
+      },
+      {
+        "name": "webID",
+        "value": ""
+      },
+      {
+        "name": "userLogin",
+        "value": "+79299938167"
+      },
+      {
+        "name": "userSmsCode",
+        "value": ""
+      },
+      {
+        "name": "rr_baseurl",
+        "value": "https://apptracking.retailrocket.net/1.0"
+      },
+      {
+        "name": "rr_apikey",
+        "value": ""
+      },
+      {
+        "name": "rr_partnerID",
+        "value": ""
+      },
+      {
+        "name": "elastic_host",
+        "value": "http://10.80.2.39:9200"
+      },
+      {
+        "name": "elastic_index",
+        "value": "test"
+      },
+      {
+        "name": "Pickpoint_apihost",
+        "value": "https://e-solution.pickpoint.ru/api/"
+      },
+      {
+        "name": "Pickpoint_login",
+        "value": ""
+      },
+      {
+        "name": "Pickpoint_password",
+        "value": ""
+      },
+      {
+        "name": "Pickpoint_sessionId",
+        "value": ""
+      },
+      {
+        "name": "Pickpoint_ikn",
+        "value": ""
+      },
+      {
+        "name": "mock-x-api-key",
+        "value": ""
+      },
+      {
+        "name": "article",
+        "value": ""
+      },
+      {
+        "name": "rr_recommend_base_url",
+        "value": "https://externalapi.retailrocket.net/api/3.0"
+      },
+      {
+        "name": "rr_productIds",
+        "value": ""
+      },
+      {
+        "name": "userName",
+        "value": ""
+      },
+      {
+        "name": "userLastName",
+        "value": ""
+      },
+      {
+        "name": "userEmail",
+        "value": ""
+      },
+      {
+        "name": "searchPhrase",
+        "value": ""
+      },
+      {
+        "name": "imbi_host",
+        "value": ""
+      },
+      {
+        "name": "regionID",
+        "value": ""
+      },
+      {
+        "name": "letualOrderID",
+        "value": ""
+      },
+      {
+        "name": "orderNum",
+        "value": ""
+      },
+      {
+        "name": "paymentToken",
+        "value": ""
+      },
+      {
+        "name": "bitrix_city_id",
+        "value": "0000073738"
+      },
+      {
+        "name": "calculateTotal",
+        "value": ""
+      },
+      {
+        "name": "shop_id",
+        "value": ""
+      },
+      {
+        "name": "bitrix_delivery_id",
+        "value": "54"
+      },
+      {
+        "name": "cityName",
+        "value": ""
+      },
+      {
+        "name": "productID",
+        "value": "643878"
+      },
+      {
+        "name": "productXmlId",
+        "value": "181578"
+      }
+    ]
+  }
+]
