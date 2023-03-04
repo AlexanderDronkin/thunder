@@ -17,7 +17,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getLatestBanner\",\r\n  \"id\":{{$randomInt}}\r\n}"
+      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getLatestBanner\",\r\n  \"id\":{{#guid}}\r\n}"
     },
     "auth": {
       "type": "none"
@@ -41,7 +41,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getPopularCategories\",\n    \"id\": {{$randomInt}}\n}"
+      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getPopularCategories\",\n    \"id\":\"{{#guid}}\"\n}"
     }
   },
   {
@@ -73,7 +73,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{ \r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getStories\",\r\n  \"id\": {{$randomInt}} \r\n}"
+      "raw": "{ \r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getStories\",\r\n  \"id\":\"{{#guid}}\" \r\n}"
     }
   },
   {
@@ -114,7 +114,7 @@
     "headers": [],
     "body": {
       "type": "json",
-      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"getNovelty\",\n  \"params\": {\n  },\n  \"id\": {{$randomInt}} \n}"
+      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"getNovelty\",\n  \"params\": {\n  },\n  \"id\":\"{{#guid}}\" \n}"
     }
   },
   {
@@ -135,7 +135,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getSuggest\",\r\n  \"params\": {\r\n    \"key\": \"кос\"\r\n  },\r\n  \"id\":\"{{$randomInt}}\"\r\n}"
+      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getSuggest\",\r\n  \"params\": {\r\n    \"key\": \"кос\"\r\n  },\r\n  \"id\":\"{{#guid}}\"\r\n}"
     }
   },
   {
@@ -156,7 +156,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getResult\",\r\n  \"params\": {\r\n    \"key\": \"{{searchPhrase}}\",\r\n    \"section\":null,\r\n     \"filter\":{\r\n       \"brand \":[],\r\n       \"product_line \":[],\r\n        \"country\": [],\r\n       \"action\": [],\r\n        \"label\":  null,\r\n        \"available\":[],\r\n        \"gender\": [],\r\n        \"color\": []        \r\n       },\r\n       \"sort\": {\r\n         \"field\": \"rating\",\r\n         \"order\":\"asc\"\r\n       },\r\n       \"page\": 1,\r\n   \"short_info \":1\r\n  },\r\n  \"id\": {{$randomInt}}\r\n}"
+      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getResult\",\r\n  \"params\": {\r\n    \"key\": \"{{searchPhrase}}\",\r\n    \"section\":null,\r\n     \"filter\":{\r\n       \"brand \":[],\r\n       \"product_line \":[],\r\n        \"country\": [],\r\n       \"action\": [],\r\n        \"label\":  null,\r\n        \"available\":[],\r\n        \"gender\": [],\r\n        \"color\": []        \r\n       },\r\n       \"sort\": {\r\n         \"field\": \"rating\",\r\n         \"order\":\"asc\"\r\n       },\r\n       \"page\": 1,\r\n   \"short_info \":1\r\n  },\r\n  \"id\":\"{{#guid}}\"\r\n}"
     }
   },
   {
@@ -177,7 +177,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getActions\",\r\n  \"id\": {{$randomInt}}\r\n}"
+      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getActions\",\r\n  \"id\":\"{{#guid}}\"\r\n}"
     },
     "auth": {
       "type": "bearer",
@@ -202,7 +202,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\n  \"jsonrpc\" : \"2.0\",\n  \"method\" : \"getShopList\",\n  \"id\" : \"{{$randomInt}}\"\n}"
+      "raw": "{\n  \"jsonrpc\" : \"2.0\",\n  \"method\" : \"getShopList\",\n  \"id\" : \"{{#guid}}\"\n}"
     },
     "auth": {
       "type": "bearer",
@@ -227,7 +227,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getShopFilter\",\r\n  \"id\":\"{{$randomInt}}\"\r\n}"
+      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getShopFilter\",\r\n  \"id\":\"{{#guid}}\"\r\n}"
     }
   },
   {
@@ -248,7 +248,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{ \r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getBasket\",\r\n  \"params\": {\r\n  },\r\n  \"id\": \"{{$randomInt}}\"\r\n}"
+      "raw": "{ \r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getBasket\",\r\n  \"params\": {\r\n  },\r\n  \"id\": \"{{#guid}}\"\r\n}"
     },
     "auth": {
       "type": "bearer",
@@ -268,7 +268,7 @@
     "headers": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"jsonrpc\":\"2.0\",\n  \"method\": \"setGift\",\n  \"params\": {\n    \"product_id\": \"958818\",\n    \"action_id\": \"1-100478305\"\n  },\n  \"id\": \"{{$randomInt}}\"\n}"
+      "raw": "{\n  \"jsonrpc\":\"2.0\",\n  \"method\": \"setGift\",\n  \"params\": {\n    \"product_id\": \"958818\",\n    \"action_id\": \"1-100478305\"\n  },\n  \"id\": \"{{#guid}}\"\n}"
     },
     "auth": {
       "type": "bearer",
@@ -288,7 +288,7 @@
     "headers": [],
     "body": {
       "type": "json",
-      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"addBasketItem\",\n  \"params\": {\n    \"productXmlId\": {{article}},\n    \"qty\": 1\n  },\n  \"id\": \"{{$randomInt}}\"\n}"
+      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"addBasketItem\",\n  \"params\": {\n    \"productXmlId\": {{article}},\n    \"qty\": 1\n  },\n  \"id\": \"{{#guid}}\"\n}"
     },
     "auth": {
       "type": "bearer",
@@ -308,7 +308,7 @@
     "headers": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getDeliveryCity\",\n    \"params\": {\n        \"search\": \"{{cityName}}\"\n    },\n    \"id\": {{$randomInt}}\n}"
+      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getDeliveryCity\",\n    \"params\": {\n        \"search\": \"{{cityName}}\"\n    },\n    \"id\":\"{{#guid}}\"\n}"
     },
     "auth": {
       "type": "none"
@@ -357,7 +357,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getPaymentMethods\",\n    \"params\": {\n        \"city\": \"{{bitrix_city_id}}\",\n        \"delivery_id\": 42,\n        \"pvz_code\": \"453\",\n        \"phone\": \"{{userLogin}}\"\n    },\n    \"id\": {{$randomInt}}\n}"
+      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getPaymentMethods\",\n    \"params\": {\n        \"city\": \"{{bitrix_city_id}}\",\n        \"delivery_id\": 42,\n        \"pvz_code\": \"453\",\n        \"phone\": \"{{userLogin}}\"\n    },\n    \"id\":\"{{#guid}}\"\n}"
     },
     "auth": {
       "type": "bearer",
@@ -377,7 +377,7 @@
     "headers": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"calculateOrder\",\n    \"params\": {\n        \"delivery\":\n        {\n            \"id\": 42,\n            \"city\": \"{{bitrix_city_id}}\",\n            \"pvz_code\": \"453\"\n        },\n        \"promocodes\": [],\n        \"debiting_bonuses\": false\n    },\n    \"id\": {{$randomInt}}\n}"
+      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"calculateOrder\",\n    \"params\": {\n        \"delivery\":\n        {\n            \"id\": 42,\n            \"city\": \"{{bitrix_city_id}}\",\n            \"pvz_code\": \"453\"\n        },\n        \"promocodes\": [],\n        \"debiting_bonuses\": false\n    },\n    \"id\":\"{{#guid}}\"\n}"
     },
     "auth": {
       "type": "bearer",
@@ -397,7 +397,7 @@
     "headers": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getHistory\",\n    \"params\": {},\n    \"id\": {{$randomInt}}\n}"
+      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getHistory\",\n    \"params\": {},\n    \"id\":\"{{#guid}}\"\n}"
     },
     "auth": {
       "type": "bearer",
@@ -417,7 +417,7 @@
     "headers": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"createOrder\",\n    \"params\": {\n        \"buyer\": {\n            \"me\": true,\n            \"name\": \"Тест\",\n            \"surname\": \"Тестов\",\n            \"email\": \"test@taber.ru\",\n            \"phone\": \"{{userLogin}}\"\n        },\n        \"delivery\": {\n            \"city\": \"{{bitrix_city_id}}\",\n            \"id\": 42,\n            \"pvz_code\": \"453\"\n        },\n        \"promocodes\": [],\n        \"payment\": \"ondelivery\",\n        \"order_total\": 2173,\n        \"debiting_bonuses\": false\n    },\n    \"id\": {{$randomInt}}\n}"
+      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"createOrder\",\n    \"params\": {\n        \"buyer\": {\n            \"me\": true,\n            \"name\": \"Тест\",\n            \"surname\": \"Тестов\",\n            \"email\": \"test@taber.ru\",\n            \"phone\": \"{{userLogin}}\"\n        },\n        \"delivery\": {\n            \"city\": \"{{bitrix_city_id}}\",\n            \"id\": 42,\n            \"pvz_code\": \"453\"\n        },\n        \"promocodes\": [],\n        \"payment\": \"ondelivery\",\n        \"order_total\": 2173,\n        \"debiting_bonuses\": false\n    },\n    \"id\":\"{{#guid}}\"\n}"
     },
     "auth": {
       "type": "bearer",
@@ -437,7 +437,7 @@
     "headers": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"createPayment\",\n    \"params\": {\n        \"order_num\": \"{{orderNum}}\",\n        \"payment_token\": \"{{paymentToken}}\"\n    },\n    \"id\": {{$randomInt}}\n}"
+      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"createPayment\",\n    \"params\": {\n        \"order_num\": \"{{orderNum}}\",\n        \"payment_token\": \"{{paymentToken}}\"\n    },\n    \"id\":\"{{#guid}}\"\n}"
     },
     "auth": {
       "type": "bearer",
@@ -457,7 +457,7 @@
     "headers": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getPaymentStatus\",\n    \"params\": {\n        \"order_num\": \"{{orderNum}}\"\n    },\n    \"id\": {{$randomInt}}\n}"
+      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getPaymentStatus\",\n    \"params\": {\n        \"order_num\": \"{{orderNum}}\"\n    },\n    \"id\":\"{{#guid}}\"\n}"
     },
     "auth": {
       "type": "bearer",
@@ -482,7 +482,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getWishlist\",\r\n  \"id\": {{$randomInt}}\r\n}"
+      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getWishlist\",\r\n  \"id\":\"{{#guid}}\"\r\n}"
     },
     "auth": {
       "type": "bearer",
@@ -507,7 +507,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"addToWishlist\",\n  \"params\": {\n      \"article\": 162640\n  },\n  \"id\": \"{{$randomInt}}\" \n}"
+      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"addToWishlist\",\n  \"params\": {\n      \"article\": 162640\n  },\n  \"id\": \"{{#guid}}\" \n}"
     },
     "auth": {
       "type": "bearer",
@@ -523,16 +523,19 @@
     "method": "POST",
     "sortNum": 240000,
     "created": "2023-02-22T03:46:13.640Z",
-    "modified": "2023-02-22T03:46:13.640Z",
+    "modified": "2023-03-04T15:08:01.022Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"jsonrpc\":\"2.0\",\n    \"method\": \"getWishlistFull\",\n    \"id\": \"{{$randomInt}}\" \n}"
+      "raw": "{\n    \"jsonrpc\":\"2.0\",\n    \"method\": \"getWishlistFull\",\n    \"id\": \"{{#guid}}\" \n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{userToken}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "670c58ae-f4a5-49e5-8aef-3917f15cf7c3",
@@ -543,21 +546,24 @@
     "method": "POST",
     "sortNum": 250000,
     "created": "2023-02-22T03:46:13.641Z",
-    "modified": "2023-02-22T03:46:13.641Z",
+    "modified": "2023-03-04T15:00:42.216Z",
     "headers": [
       {
         "name": "x-api-key",
         "value": "{{mock-x-api-key}}"
       }
     ],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{ \r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"sendCode\",\r\n  \"params\": {\r\n    \"login\": \"{{userLogin}}\"\r\n  },\r\n  \"id\": {{$randomInt}}\r\n}"
+      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"sendCode\",\n  \"params\": {\n    \"login\": \"{{userLogin}}\"\n  },\n  \"id\":\"{{#guid}}\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{userToken}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "ec6a54f9-5015-4f2c-9443-fcfad0ed032d",
@@ -568,21 +574,24 @@
     "method": "POST",
     "sortNum": 260000,
     "created": "2023-02-22T03:46:13.642Z",
-    "modified": "2023-02-22T03:46:13.642Z",
+    "modified": "2023-03-04T15:01:27.888Z",
     "headers": [
       {
         "name": "x-api-key",
         "value": "{{mock-x-api-key}}"
       }
     ],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"login\",\n  \"params\": {\n    \"login\": \"{{userLogin}}\", \n    \"code\":\"{{userSmsCode}}\",\n    \"web_id\": {{webID}}\n  },\n  \"id\": \"{{$randomInt}}\"\n}"
+      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"login\",\n  \"params\": {\n    \"login\": \"{{userLogin}}\", \n    \"code\":\"{{userSmsCode}}\",\n    \"web_id\": \"{{webID}}\"\n  },\n  \"id\": \"{{#guid}}\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{userToken}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "f7a96816-29f0-45f2-a174-a2bed403c9ba",
@@ -602,7 +611,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"confirmProfile\",\r\n  \"params\":\r\n    {\r\n       \"name\": \"{{userName}}\",\r\n       \"last_name\": \"{{userLastName}}\",\r\n       \"email\": \"{{userEmail}}\",\r\n       \"agree\": \"1\",\r\n       \"web_id\": {{webID}},\r\n       \"login\": \"{{userLogin}}\"\r\n    },\r\n\"id\":\"{{$randomInt}}\"\r\n}"
+      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"confirmProfile\",\r\n  \"params\":\r\n    {\r\n       \"name\": \"{{userName}}\",\r\n       \"last_name\": \"{{userLastName}}\",\r\n       \"email\": \"{{userEmail}}\",\r\n       \"agree\": \"1\",\r\n       \"web_id\": {{webID}},\r\n       \"login\": \"{{userLogin}}\"\r\n    },\r\n\"id\":\"{{#guid}}\"\r\n}"
     },
     "auth": {
       "type": "bearer",
@@ -627,7 +636,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getOrderHistory\",\r\n  \"id\": {{$randomInt}}\r\n}"
+      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getOrderHistory\",\r\n  \"id\":\"{{#guid}}\"\r\n}"
     },
     "auth": {
       "type": "bearer",
@@ -652,7 +661,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\r\n  \"jsonrpc\":\"2.0\", \r\n  \"method\": \"getProfile\",\r\n  \"id\": \"{{$randomInt}}\"\r\n}"
+      "raw": "{\r\n  \"jsonrpc\":\"2.0\", \r\n  \"method\": \"getProfile\",\r\n  \"id\": \"{{#guid}}\"\r\n}"
     },
     "auth": {
       "type": "bearer",
@@ -702,20 +711,30 @@
     "method": "POST",
     "sortNum": 320000,
     "created": "2023-02-22T03:46:13.648Z",
-    "modified": "2023-02-22T03:46:13.648Z",
+    "modified": "2023-03-04T15:00:30.391Z",
     "headers": [
       {
         "name": "x-api-key",
         "value": "{{mock-x-api-key}}"
       }
     ],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getAnonBuyerToken\",\n    \"id\": {{$randomInt}}\n}"
+      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getAnonBuyerToken\",\n    \"id\":\"{{#guid}}\"\n}",
+      "form": []
     },
     "auth": {
       "type": "none"
-    }
+    },
+    "tests": [
+      {
+        "type": "set-env-var",
+        "custom": "json.result.token",
+        "action": "setto",
+        "value": "{{userToken}}"
+      }
+    ]
   },
   {
     "_id": "ae59c829-5d57-4fbe-9d34-6f3e98a1ce2d",
@@ -735,7 +754,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getKeyBarcode\",\n    \"params\": {\n        \"card\": \"2986100672904\"\n    },\n    \"id\": {{$randomInt}}\n}"
+      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getKeyBarcode\",\n    \"params\": {\n        \"card\": \"2986100672904\"\n    },\n    \"id\":\"{{#guid}}\"\n}"
     },
     "auth": {
       "type": "none"
@@ -759,7 +778,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"deactivation\",\n    \"params\": {\n        \"email\": \"test@mail.com\",\n        \"reason\": \"\"\n    },\n    \"id\": {{$randomInt}}\n}"
+      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"deactivation\",\n    \"params\": {\n        \"email\": \"test@mail.com\",\n        \"reason\": \"\"\n    },\n    \"id\":\"{{#guid}}\"\n}"
     },
     "auth": {
       "type": "bearer",
@@ -784,7 +803,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{ \r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getProduct\",\r\n  \"params\": {\r\n      \"article\": {{article}},\r\n      \"get_marks\": \"false\"\r\n  },\r\n  \"id\": {{$randomInt}} \r\n}"
+      "raw": "{ \r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getProduct\",\r\n  \"params\": {\r\n      \"article\": {{article}},\r\n      \"get_marks\": \"false\"\r\n  },\r\n  \"id\":\"{{#guid}}\" \r\n}"
     }
   },
   {
@@ -805,7 +824,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{ \r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getReviews\",\r\n  \"params\": {\r\n      \"article\": 85414,\r\n       \"offset\": 1\r\n  },\r\n  \"id\": \"{{$randomInt}}\" \r\n}"
+      "raw": "{ \r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getReviews\",\r\n  \"params\": {\r\n      \"article\": 85414,\r\n       \"offset\": 1\r\n  },\r\n  \"id\": \"{{#guid}}\" \r\n}"
     }
   },
   {
@@ -826,7 +845,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"addReview\",\n  \"params\": {\n      \"article\": 85414,\n      \"name\": \"Ольга\",\n      \"rate\": 4,\n      \"description\": \"Подходит для ежедневного макияжа\",\n      \"subject\": \"Тушь на каждый день\",\n      \"age\": 123,\n      \"skin_type\": 22293,\n      \"eye_color\": 22283,\n      \"skin_tone\": 22287\n  },\n  \"id\": {{$randomInt}}\n}"
+      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"addReview\",\n  \"params\": {\n      \"article\": 85414,\n      \"name\": \"Ольга\",\n      \"rate\": 4,\n      \"description\": \"Подходит для ежедневного макияжа\",\n      \"subject\": \"Тушь на каждый день\",\n      \"age\": 123,\n      \"skin_type\": 22293,\n      \"eye_color\": 22283,\n      \"skin_tone\": 22287\n  },\n  \"id\":\"{{#guid}}\"\n}"
     },
     "auth": {
       "type": "bearer",
@@ -842,21 +861,24 @@
     "method": "POST",
     "sortNum": 380000,
     "created": "2023-02-22T03:46:13.655Z",
-    "modified": "2023-02-22T03:46:13.655Z",
+    "modified": "2023-03-04T15:03:54.846Z",
     "headers": [
       {
         "name": "x-api-key",
         "value": "{{mock-x-api-key}}"
       }
     ],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{ \r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getCatalog\",\r\n  \"params\": {\r\n      \"section\": {\r\n      },\r\n      \"filter\": {\r\n        \"brand\": [],\r\n        \"product_line\":[],\r\n        \"country\": [],\r\n        \"action\": [],\r\n        \"label\": null,\r\n        \"available\": {\r\n        },\r\n        \"recommend\": {\r\n          \"eco\": 0,\r\n          \"exculsive\": 0,\r\n          \"new\": 0\r\n        },\r\n        \"gender\": [],\r\n        \"color\": []\r\n      },\r\n      \"sort\": {\r\n        \"field\": \"rating\",\r\n        \"order\": \"desc\"\r\n      },\r\n      \"page\": 1\r\n  },\r\n  \"id\": {{$randomInt}}\r\n}"
+      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"getCatalog\",\n  \"params\": {\n      \"section\": {\n      },\n      \"filter\": {\n        \"brand\": [],\n        \"product_line\":[],\n        \"country\": [],\n        \"action\": [],\n        \"label\": null,\n        \"available\": {\n        },\n        \"recommend\": {\n          \"eco\": 0,\n          \"exculsive\": 0,\n          \"new\": 0\n        },\n        \"gender\": [],\n        \"color\": []\n      },\n      \"sort\": {\n        \"field\": \"rating\",\n        \"order\": \"desc\"\n      },\n      \"page\": 1\n  },\n  \"id\":\"{{#guid}}\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{userToken}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "c5b5f399-e338-4846-8568-b55862a50a06",
@@ -876,7 +898,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\r\n    \"jsonrpc\": \"2.0\",\r\n    \"method\": \"getFilters\",\r\n    \"params\": {\r\n        \"filter\": [\r\n            \"brand\"\r\n        ]\r\n    },\r\n    \"id\": {{$randomInt}}\r\n}"
+      "raw": "{\r\n    \"jsonrpc\": \"2.0\",\r\n    \"method\": \"getFilters\",\r\n    \"params\": {\r\n        \"filter\": [\r\n            \"brand\"\r\n        ]\r\n    },\r\n    \"id\":\"{{#guid}}\"\r\n}"
     }
   },
   {
@@ -892,7 +914,7 @@
     "headers": [],
     "body": {
       "type": "json",
-      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"getByArticle\",\n  \"params\": {\n      \"articles\": [\"{{article}}\"]\n  },\n  \"id\": {{$randomInt}}\n}"
+      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"getByArticle\",\n  \"params\": {\n      \"articles\": [\"{{article}}\"]\n  },\n  \"id\":\"{{#guid}}\"\n}"
     }
   },
   {
@@ -913,7 +935,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getFAQ\",\r\n  \"id\":{{$randomInt}}\r\n}"
+      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getFAQ\",\r\n  \"id\":{{#guid}}\r\n}"
     }
   },
   {
@@ -934,7 +956,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getFeedbackCategories\",\n    \"params\": {},\n    \"id\": {{$randomInt}}\n}"
+      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getFeedbackCategories\",\n    \"params\": {},\n    \"id\":\"{{#guid}}\"\n}"
     },
     "auth": {
       "type": "none"
@@ -958,7 +980,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"sendFeedback\",\n    \"params\": {\n        \"category\": \"1-6GFDN4F\",\n        \"name\": \"Александр\",\n        \"email\": \"alex.dargin.org@gmail.com\",\n        \"phone\": \"+79653248514\",\n        \"text\": \"Текст обращения\",\n        \"order_num\": 123456,\n        \"file\": \"0JnQsCDQutCw0YDRgtC40L3Qs9C+IQ==\"\n    },\n    \"id\": {{$randomInt}}\n}"
+      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"sendFeedback\",\n    \"params\": {\n        \"category\": \"1-6GFDN4F\",\n        \"name\": \"Александр\",\n        \"email\": \"alex.dargin.org@gmail.com\",\n        \"phone\": \"+79653248514\",\n        \"text\": \"Текст обращения\",\n        \"order_num\": 123456,\n        \"file\": \"0JnQsCDQutCw0YDRgtC40L3Qs9C+IQ==\"\n    },\n    \"id\":\"{{#guid}}\"\n}"
     },
     "auth": {
       "type": "none"
@@ -986,7 +1008,7 @@
     ],
     "body": {
       "type": "json",
-      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"deeplinkHandler\",\r\n  \"params\":\r\n    {\r\n        \"link\": \"https://www.podrygka.ru/catalog/makiyazh/?brand=art_visage;bob;bourjois&fdgdfgd=21321\"\r\n    },\r\n  \"id\":\"{{$randomInt}}\"\r\n}"
+      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"deeplinkHandler\",\r\n  \"params\":\r\n    {\r\n        \"link\": \"https://www.podrygka.ru/catalog/makiyazh/?brand=art_visage;bob;bourjois&fdgdfgd=21321\"\r\n    },\r\n  \"id\":\"{{#guid}}\"\r\n}"
     }
   },
   {
@@ -1055,7 +1077,7 @@
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"jsonrpc\":\"2.0\",\n    \"method\": \"sendEmail\",\n    \"params\": {\n      \"department\": \"3\",\n      \"subject\": \"33\",\n      \"name\": \"{{userName}}\",\n      \"mobile_phone\": \"{{userLogin}}\",\n      \"email\": \"{{userEmail}}\",\n      \"question\": \"тестовый вопрос\"\n     },\n    \"id\": {{$randomInt}} \n}",
+      "raw": "{\n    \"jsonrpc\":\"2.0\",\n    \"method\": \"sendEmail\",\n    \"params\": {\n      \"department\": \"3\",\n      \"subject\": \"33\",\n      \"name\": \"{{userName}}\",\n      \"mobile_phone\": \"{{userLogin}}\",\n      \"email\": \"{{userEmail}}\",\n      \"question\": \"тестовый вопрос\"\n     },\n    \"id\":\"{{#guid}}\" \n}",
       "form": []
     },
     "tests": []
@@ -1073,7 +1095,7 @@
     "headers": [],
     "body": {
       "type": "json",
-      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"getRegionId\",\n   \"params\": {\n        \"latitude\": {{$randomLatitude}},\n        \"longitude\": {{$randomLongitude}}\n    },\n  \"id\": \"{{$randomInt}}\" \n}"
+      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"getRegionId\",\n   \"params\": {\n        \"latitude\": {{$randomLatitude}},\n        \"longitude\": {{$randomLongitude}}\n    },\n  \"id\": \"{{#guid}}\" \n}"
     }
   }
 ]
