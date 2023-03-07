@@ -126,17 +126,20 @@
     "method": "POST",
     "sortNum": 60000,
     "created": "2023-02-22T03:46:13.622Z",
-    "modified": "2023-02-22T03:46:13.622Z",
+    "modified": "2023-03-04T21:06:48.083Z",
     "headers": [
       {
         "name": "x-api-key",
         "value": "{{mock-x-api-key}}"
       }
     ],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getSuggest\",\r\n  \"params\": {\r\n    \"key\": \"кос\"\r\n  },\r\n  \"id\":\"{{#guid}}\"\r\n}"
-    }
+      "raw": "{\n  \"jsonrpc\":\"2.0\",\n  \"method\": \"getSuggest\",\n  \"params\": {\n    \"key\": \"косме\"\n  },\n  \"id\":\"{{#guid}}\"\n}",
+      "form": []
+    },
+    "tests": []
   },
   {
     "_id": "5593145c-9eab-4591-bf62-d7a427b40e73",
@@ -193,21 +196,24 @@
     "method": "POST",
     "sortNum": 90000,
     "created": "2023-02-22T03:46:13.625Z",
-    "modified": "2023-02-22T03:46:13.625Z",
+    "modified": "2023-03-04T20:06:16.981Z",
     "headers": [
       {
         "name": "x-api-key",
         "value": "{{mock-x-api-key}}"
       }
     ],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"jsonrpc\" : \"2.0\",\n  \"method\" : \"getShopList\",\n  \"id\" : \"{{#guid}}\"\n}"
+      "raw": "{\n  \"jsonrpc\" : \"2.0\",\n  \"method\" : \"getShopList\",\n  \"id\" : \"{{#guid}}\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{userToken}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "5f078ba6-ab1b-4e51-b13a-33a3a30c66fc",
@@ -239,21 +245,24 @@
     "method": "POST",
     "sortNum": 110000,
     "created": "2023-02-22T03:46:13.627Z",
-    "modified": "2023-02-22T03:46:13.627Z",
+    "modified": "2023-03-06T11:44:49.797Z",
     "headers": [
       {
         "name": "x-api-key",
         "value": "{{mock-x-api-key}}"
       }
     ],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{ \r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getBasket\",\r\n  \"params\": {\r\n  },\r\n  \"id\": \"{{#guid}}\"\r\n}"
+      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"getBasket\",\n  \"params\": {\n  },\n  \"id\": \"{{#guid}}\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{userToken}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "447ae5e6-5721-49bd-a0d5-3a9763989f31",
@@ -473,21 +482,24 @@
     "method": "POST",
     "sortNum": 220000,
     "created": "2023-02-22T03:46:13.638Z",
-    "modified": "2023-02-22T03:46:13.638Z",
+    "modified": "2023-03-05T02:10:42.620Z",
     "headers": [
       {
         "name": "x-api-key",
         "value": "{{mock-x-api-key}}"
       }
     ],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getWishlist\",\r\n  \"id\":\"{{#guid}}\"\r\n}"
+      "raw": "{\n  \"jsonrpc\":\"2.0\",\n  \"method\": \"getWishlist\",\n  \"id\":\"{{#guid}}\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{userToken}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "5a40e613-6c73-4ee9-8e9e-5da317fde6ae",
@@ -498,21 +510,24 @@
     "method": "POST",
     "sortNum": 230000,
     "created": "2023-02-22T03:46:13.639Z",
-    "modified": "2023-02-22T03:46:13.639Z",
+    "modified": "2023-03-05T02:14:17.132Z",
     "headers": [
       {
         "name": "x-api-key",
         "value": "{{mock-x-api-key}}"
       }
     ],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"addToWishlist\",\n  \"params\": {\n      \"article\": 162640\n  },\n  \"id\": \"{{#guid}}\" \n}"
+      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"addToWishlist\",\n  \"params\": {\n      \"article\": 162640\n  },\n  \"id\": \"{{#guid}}\" \n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{userToken}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "5e094c17-e3df-4884-9515-1e356c5330de",
@@ -627,21 +642,24 @@
     "method": "POST",
     "sortNum": 280000,
     "created": "2023-02-22T03:46:13.644Z",
-    "modified": "2023-02-22T03:46:13.644Z",
+    "modified": "2023-03-06T03:35:58.797Z",
     "headers": [
       {
         "name": "x-api-key",
         "value": "{{mock-x-api-key}}"
       }
     ],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getOrderHistory\",\r\n  \"id\":\"{{#guid}}\"\r\n}"
+      "raw": "{\n  \"jsonrpc\":\"2.0\",\n  \"method\": \"getOrderHistory\",\n  \"id\":\"{{#guid}}\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{userToken}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "68e35058-374e-4481-a71f-0c703192761f",
@@ -711,7 +729,7 @@
     "method": "POST",
     "sortNum": 320000,
     "created": "2023-02-22T03:46:13.648Z",
-    "modified": "2023-03-04T15:00:30.391Z",
+    "modified": "2023-03-06T03:20:50.123Z",
     "headers": [
       {
         "name": "x-api-key",
@@ -732,7 +750,7 @@
         "type": "set-env-var",
         "custom": "json.result.token",
         "action": "setto",
-        "value": "{{userToken}}"
+        "value": "{{anonToken}}"
       }
     ]
   },
@@ -794,17 +812,20 @@
     "method": "POST",
     "sortNum": 350000,
     "created": "2023-02-22T03:46:13.652Z",
-    "modified": "2023-02-22T03:46:13.652Z",
+    "modified": "2023-03-04T20:02:07.033Z",
     "headers": [
       {
         "name": "x-api-key",
         "value": "{{mock-x-api-key}}"
       }
     ],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{ \r\n  \"jsonrpc\":\"2.0\",\r\n  \"method\": \"getProduct\",\r\n  \"params\": {\r\n      \"article\": {{article}},\r\n      \"get_marks\": \"false\"\r\n  },\r\n  \"id\":\"{{#guid}}\" \r\n}"
-    }
+      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"getProduct\",\n  \"params\": {\n      \"article\": \"{{article}}\",\n      \"get_marks\": \"false\"\n  },\n  \"id\":\"{{#guid}}\" \n}",
+      "form": []
+    },
+    "tests": []
   },
   {
     "_id": "9a6cae01-cf16-4308-8bcc-91d684bd4137",
@@ -889,17 +910,20 @@
     "method": "POST",
     "sortNum": 390000,
     "created": "2023-02-22T03:46:13.656Z",
-    "modified": "2023-02-22T03:46:13.656Z",
+    "modified": "2023-03-04T20:02:15.470Z",
     "headers": [
       {
         "name": "x-api-key",
         "value": "{{mock-x-api-key}}"
       }
     ],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\r\n    \"jsonrpc\": \"2.0\",\r\n    \"method\": \"getFilters\",\r\n    \"params\": {\r\n        \"filter\": [\r\n            \"brand\"\r\n        ]\r\n    },\r\n    \"id\":\"{{#guid}}\"\r\n}"
-    }
+      "raw": "{\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"getFilters\",\n    \"params\": {\n        \"filter\": [\n            \"brand\"\n        ]\n    },\n    \"id\":\"{{#guid}}\"\n}",
+      "form": []
+    },
+    "tests": []
   },
   {
     "_id": "5a52d676-e1a9-4805-93e5-212f5394e44e",
@@ -1091,11 +1115,14 @@
     "method": "POST",
     "sortNum": 480000,
     "created": "2023-02-22T03:46:13.665Z",
-    "modified": "2023-02-22T03:46:13.665Z",
+    "modified": "2023-03-04T17:54:48.587Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"getRegionId\",\n   \"params\": {\n        \"latitude\": {{$randomLatitude}},\n        \"longitude\": {{$randomLongitude}}\n    },\n  \"id\": \"{{#guid}}\" \n}"
-    }
+      "raw": "{ \n  \"jsonrpc\":\"2.0\",\n  \"method\": \"getRegionId\",\n   \"params\": {\n        \"latitude\": \"{{$randomLatitude}}\",\n        \"longitude\": \"{{$randomLongitude}}\"\n    },\n  \"id\": \"{{#guid}}\" \n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
